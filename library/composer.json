@@ -1,0 +1,22 @@
+{
+  "name": "marcosrc/cursocomposer",
+  "decription": "Package Test",
+  "require": {
+    "php": ">=7.1",
+    "laravel/lumen": "5.7.*@stable",
+    "silex/silex": "2.3.*@stable",
+    "doctrine/dbal": "2.8.*@stable"
+  },
+  "version": "1.0.0",
+  "license": "MIT",
+  "authors":[
+    {
+      "name":"Marcos Camargo",
+      "email": "marcos.marrize@gmail.com"
+    }
+  ],
+  "minumum-stability":"dev",
+  "autoload": {
+    "psr-4":{"Marcos\\SETIN\\":"src/Marcos/SETIN"}
+  }
+}
